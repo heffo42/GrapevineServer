@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/user');
+const User = require('../models/User');
 
 module.exports = app => function (req, res, next) {
   // check header or url parameters or post parameters for token
