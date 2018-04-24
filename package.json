@@ -4,10 +4,14 @@
   "description": "School Feed",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+  "node": "9.4.0"
+  },
   "dependencies": {
-    "bcrypt": "^2.0.1",
+    "bcrypt": "*",
     "body-parser": "*",
     "express": "*",
     "jsonwebtoken": "^8.2.1",
