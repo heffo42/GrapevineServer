@@ -1,0 +1,19 @@
+{
+  "name": "grape",
+  "version": "1.0.0",
+  "description": "School Feed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "*",
+    "express": "*",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.16",
+    "nodemailer": "^4.6.4"
+  },
+  "author": "David Heffernan",
+  "license": "ISC"
+}
